@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product Management Page</title>
+</head>
+<body>
+	<main class="page-shell">
+		<section class="card">
+			<h1>Product Management</h1>
+			<p>Unit Price: 1000 | Days: 30</p>
+
+			<label for="quantity">Quantity per Day</label>
+			<input id="quantity" name="quantity" type="number" min="0" value="0">
+			<p id="quantity-error" class="error-message" aria-live="polite"></p>
+
+			<label for="totalPrice">Total Price</label>
+			<input id="totalPrice" name="totalPrice" type="text" value="0" readonly>
+		</section>
+	</main>
+
+</body>
+</html>
